@@ -11,6 +11,7 @@ def fizzbuzz(number)
   end
 end
 
+# iterating over...
 (1..20).each do |x|
   puts "#{x} --> #{fizzbuzz(x)}"
 end
